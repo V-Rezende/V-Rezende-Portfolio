@@ -1,11 +1,11 @@
-import React from 'react'
-import {Swiper, SwiperSlide} from "swiper/react"
+import React from 'react';
+import {Swiper, SwiperSlide} from "swiper/react";
 
-import './cards.css' //Needs to be imported
-import 'swiper/css'
-import 'swiper/css/effect-coverflow'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
+import './cards.css';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
 
