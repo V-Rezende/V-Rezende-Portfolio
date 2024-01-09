@@ -1,0 +1,147 @@
+.about-section{
+    background-color: black;
+    color: whitesmoke;
+
+    display: grid;
+    grid-template-areas: "about background";
+    grid-template-columns: 1fr 1fr;grid-template-rows: 100vh;
+}
+
+@keyframes enteringLeftToRight {
+    from {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes enteringRightToLeft {
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.about{
+    grid-area: about;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 80px;
+    margin-left: 20px;
+    border-right: 0.2px solid rgb(56, 56, 56);
+
+    font-family: quicksand;
+    animation: enteringLeftToRight 1s ease-in-out;
+}
+
+.about p{
+    line-height: 2rem;
+    padding-left: 60px;
+    text-align: justify;
+}
+
+.background{
+    font-family: quicksand;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+    animation: enteringRightToLeft 1s ease-in-out;
+}
+
+.background h1{
+    text-align: center;
+}
+
+.background-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: quicksand;
+}
+
+.background-title h2 {
+    margin: 0;
+}
+.background-title h3{
+    margin: 0;
+    border-bottom: 0.2px solid rgb(136, 250, 78);
+}
+.background-title h4 {
+    margin: 2px;
+}
+
+.year-2024{
+    grid-column: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: justify;
+    line-height: 1.5rem;
+
+}
+
+.year-2024 p{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.year-2023{
+    grid-column: 2;
+    margin-top: 380px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.year-2023 p{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.year-2022{
+    grid-column: 1;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.year-2022 p{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+

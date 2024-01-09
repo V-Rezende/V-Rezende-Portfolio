@@ -1,0 +1,89 @@
+.body{
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes entering {
+ from {
+    opacity: 0;
+    transform: translatey(-200px);
+ }
+ to {
+    opacity: 1;
+    transform: translateY(0);
+ }
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header-left{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: entering 1s ease-in-out;
+    padding-left: 100px;
+}
+
+.header-logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    color: #88FA4E;
+    text-shadow: -1px -1px 10px #88FA4E;
+    margin: 0;
+}
+
+.header-title h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.header-title h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.header-right{
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: entering 2s ease-in-out;
+}
+
+.header-right img{
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    object-fit: cover;
+    background: transparent;
+    transition: 2s;
+    animation: entering 1s ease-in-out;
+
+    border: 5px solid transparent;
+    background: linear-gradient(#344e41, #3a5a40, #588157, #a3b18a) padding-box,
+    linear-gradient(260deg, #344e41, #3a5a40, #588157, #a3b18a) border-box;
+
+}
+
+.cards{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.cards img{
+    width: 300px;
+    height: auto;
+}

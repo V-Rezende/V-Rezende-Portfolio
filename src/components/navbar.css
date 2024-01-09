@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 80px;
+    padding-right: 40px;
+    font-family: quicksand;
+    letter-spacing: 1.1px;
+    background-color: whitesmoke;
+    height: 60px;
+    background: linear-gradient(to top, black, rgb(110, 110, 110));
+    color: whitesmoke;
+    border-bottom: 0.5px solid white;
+  }
+
+  .nav-item:hover{
+    font-weight: bolder;
+    text-shadow: -1px 1px 2px white;
+    transition: 0.5s;
+  }
+
+  .nav-item-home{
+    color: #88FA4E;
+    text-decoration: none;
+  }
+
+  .nav-item-home:hover{
+    font-weight: bolder;
+    text-shadow: -1px 1px 2px #88FA4E;
+    transition: 0.5s;
+  }
