@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='header-right'>
-                    <img src="./images/vr.profile.JPG" alt="Vinni" />
+                    <img src="https://v-rezende.github.io/Imagens-Online/images/vr.profile.JPG" alt="Vinni" />
             </div>
         </div>
         <Cards/>

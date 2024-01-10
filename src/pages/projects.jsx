@@ -6,7 +6,7 @@ const Projects = () => {
     <div className='proj-section'>
       <div className='thiago'>
         <div className='proj-image'>
-            <img src="./images/ThitiOnDevices-removebg-preview.png" alt="Thiago Nunes - Profile" id='TN' />
+            <img src="https://v-rezende.github.io/Imagens-Online/images/ThitiOnDevices-removebg-preview.png" alt="Thiago Nunes - Profile" id='TN' />
         </div>
         <div className='proj-description'>
             <h2>Thiago Nunes - Profile</h2>
@@ -19,7 +19,7 @@ const Projects = () => {
       </div>
       <div className='tour'>
         <div className='proj-image'>
-            <img src="./images/TourOnDevices-removebg-preview.png" alt="Tour Australia Today" id='TAT' />
+            <img src="https://v-rezende.github.io/Imagens-Online/images/TourOnDevices-removebg-preview.png" alt="Tour Australia Today" id='TAT' />
         </div>
         <div className='proj-description'>
             <h2>Tour Australia Today</h2>
@@ -32,7 +32,7 @@ const Projects = () => {
       </div>
       <div className='cafe'>
         <div className='proj-image'>
-            <img src="./images/CafeOnDevices-removebg-preview.png" alt="Little Lemon Café" id='LLC' />
+            <img src="https://v-rezende.github.io/Imagens-Online/images/CafeOnDevices-removebg-preview.png" alt="Little Lemon Café" id='LLC' />
         </div>
         <div className='proj-description'>
             <h2>Little Lemon Café</h2>
@@ -46,7 +46,7 @@ const Projects = () => {
       </div>
       <div className='era'>
         <div className='proj-image'>
-            <img src="./images/EraOnDevices-removebg-preview.png" alt="Era Uma Vez" id='EUV' />
+            <img src="https://v-rezende.github.io/Imagens-Online/images/EraOnDevices-removebg-preview.png" alt="Era Uma Vez" id='EUV' />
         </div>
         <div className='proj-description'>
             <h2>Era Uma Vez</h2>
