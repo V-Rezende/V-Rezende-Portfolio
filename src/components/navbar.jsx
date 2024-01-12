@@ -24,10 +24,10 @@ const Navbar = () => {
   <>
     <div className={`nav-menu ${isMenuOpen ? 'hide-desktop-menu' : ''}`}>
       <nav className='desktop-menu'>
-        <Link to='/' className='nav-item-home'>Home</Link>
-        <Link to='/about' className='nav-item'>About</Link>
-        <Link to='/projects' className='nav-item'>Projects</Link>
-        <Link to='/contact' className='nav-item'>Contact</Link>
+        <Link to='/V-Rezende-Portfolio/' className='nav-item-home'>Home</Link>
+        <Link to='/V-Rezende-Portfolio/about' className='nav-item'>About</Link>
+        <Link to='/V-Rezende-Portfolio/projects' className='nav-item'>Projects</Link>
+        <Link to='/V-Rezende-Portfolio/contact' className='nav-item'>Contact</Link>
       </nav>
 
       <div className="mobile-menu-icon">
