@@ -65,7 +65,7 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 40px;
-    padding-right: 80px;
+    padding-right: 60px;
 }
 
 .proj-description p{
@@ -103,3 +103,52 @@ a:hover{
     font-weight: bold;
 }
 
+/* -------------------- RESPONSIVE -------------------- */
+
+@media screen and (min-width:360px) and (max-width: 860px) {
+
+    .proj-section{
+        padding-bottom: 40px;
+    }
+
+    .proj-image img{
+        width: 90%;
+    }
+
+    .proj-description h2{
+        font-size: medium;
+    }
+
+    .proj-description p{
+        font-size: small;
+        line-height: 1.5rem;
+}
+}
+
+@media screen and (min-width:360px) and (max-width: 430px) {
+
+    .proj-section{
+        padding-bottom: 40px;
+    }
+
+    .thiago,
+    .tour,
+    .cafe,
+    .era{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .proj-description h2{
+        font-size: medium;
+    }
+
+    .proj-description p{
+        font-size: small;
+        line-height: 1.5rem;
+}
+}

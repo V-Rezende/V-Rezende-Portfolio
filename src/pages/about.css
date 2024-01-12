@@ -4,7 +4,8 @@
 
     display: grid;
     grid-template-areas: "about background";
-    grid-template-columns: 1fr 1fr;grid-template-rows: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
 }
 
 @keyframes enteringLeftToRight {
@@ -145,3 +146,114 @@
     padding-bottom: 0;
 }
 
+/* -------------------- RESPONSIVE -------------------- */
+
+@media screen and (min-width:360px) and (max-width: 820px) {
+    /* .about-section{
+        background-color: black;
+        color: whitesmoke;
+        display: grid;
+        grid-template-areas: "about background";
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 100vh;
+    } */
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about{
+        width: 100%;
+        align-items: center;
+    }
+
+    .about h1{
+        font-size: 20px;
+        padding-left: 40px;
+    }
+
+    .about p{
+        line-height: 1.5rem;
+        font-size: 12px;
+        padding-right: 20px;
+    }
+
+    .background{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .background-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .background h1{
+        text-align: center;
+        font-size: 20px;
+}
+    .background h1{
+        text-align: center;
+    }
+
+    .background-title{
+        padding-left: 10px;
+    }
+
+    .background-title h2 {
+        font-size: 14px;
+    }
+
+    .background-title h3{
+        font-size: 14px;
+    }
+
+    .background-title h4 {
+        font-size: 14px;
+}
+
+    .background-title{
+        padding-left: 20px;
+    }
+
+    .year-2024{
+        margin: 0;
+        padding: 0;
+    }
+
+    .year-2024 p{
+        font-size: 12px;
+        padding: 20px 40px 30px 40px;
+}
+
+    .year-2023{
+        margin: 0;
+        padding: 0;
+    }
+
+    .year-2023 p{
+        font-size: 12px;
+        padding: 20px 40px 30px 40px;
+}
+
+    .year-2022{
+        margin: 0;
+        padding: 0;
+}
+
+    .year-2022 p{
+        font-size: 12px;
+        padding: 20px 40px 30px 40px;
+}
+
+
+}

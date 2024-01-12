@@ -61,3 +61,57 @@
     line-height: 2rem;
     text-align: center;
 }
+
+/* -------------------- RESPONSIVE -------------------- */
+
+@media screen and (min-width:360px) and (max-width: 1024px) {
+    .contact-section{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-contact{
+        margin: 0;
+        padding: 50px 60px 0 60px;
+    }
+
+    .form{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 20px 0 20px 0;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width: 430px) {
+    .contact-contact{
+        margin: 0;
+        padding: 25px 40px 0 30px;
+    }
+
+    .top-contact h2{
+        font-size: large;
+    }
+
+    .top-contact p{
+        font-size: medium;
+        line-height: 1.5rem;
+    }
+
+    .bottom-contact p{
+        font-size: medium;
+        line-height: 1.5rem;
+    }
+
+    .form{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+}

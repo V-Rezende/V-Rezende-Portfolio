@@ -75,3 +75,61 @@ footer {
     color: white;
 }
 
+/* -------------------- RESPONSIVE -------------------- */
+
+@media screen and (min-width:360px) and (max-width: 820px) {
+    .footer-section {
+        display: grid;
+        grid-row: 1;
+        grid-template-columns: 25% 20% 20% 35%;
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width: 768px) {
+    .footer-section {
+        display: grid;
+        grid-row: 1;
+        grid-template-columns: 25% 20% 20% 35%;
+        grid-template-rows: auto;
+    }
+
+    .footer-foot{
+        font-size: x-small;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width: 430px) {
+    .logo h1{
+        display: none;
+    }
+
+    .footer-section {
+        display: grid;
+        grid-row: 1;
+        grid-template-columns: 1% 24% 25% 50%;
+        grid-template-rows: auto;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    .footer-foot{
+        font-size: 8px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo h1{
+        display: none;
+    }
+
+    .footer-section {
+        font-size: 8px;
+    }
+
+    .footer-foot{
+        font-size: 6px;
+    }
+}
+

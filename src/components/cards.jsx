@@ -37,6 +37,23 @@ const Cards = () => {
               }}
               modules={[EffectCoverflow, Pagination, Navigation]}
               className="swiper_container"
+              breakpoints={{
+                768: {
+                  slidesPerView: 2,
+                },
+                430: {
+                  slidesPerView: 1,
+                },
+                414: {
+                  slidesPerView: 1,
+                },
+                390: {
+                  slidesPerView: 1,
+                },
+                375: {
+                  slidesPerView: 1,
+                },
+              }}
             >
             <SwiperSlide>
               <img src={slide_image_1} alt="slide_image" />
