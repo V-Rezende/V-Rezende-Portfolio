@@ -37,10 +37,10 @@ const Navbar = () => {
 
     <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`} >
       <nav>
-        <Link to='/' className='nav-item-home' onClick={menuShow}>Home</Link>
-        <Link to='/about' className='nav-item' onClick={menuShow}>About</Link>
-        <Link to='/projects' className='nav-item' onClick={menuShow}>Projects</Link>
-        <Link to='/contact' className='nav-item' onClick={menuShow}>Contact</Link>
+        <Link to='/V-Rezende-Portfolio/' className='nav-item-home' onClick={menuShow}>Home</Link>
+        <Link to='/V-Rezende-Portfolio/about' className='nav-item' onClick={menuShow}>About</Link>
+        <Link to='/V-Rezende-Portfolio/projects' className='nav-item' onClick={menuShow}>Projects</Link>
+        <Link to='/V-Rezende-Portfolio/contact' className='nav-item' onClick={menuShow}>Contact</Link>
       </nav>
     </div>
  </>
