@@ -14,9 +14,9 @@ const Footer = () => {
             <div className='navigate'>
                 <h4>NAVIGATE</h4>
                 <ul>
-                    <li><Link to='/' className='nav-item'>Home</Link></li>
-                    <li> <Link to='/about' className='nav-item'>About</Link></li>
-                    <li> <Link to='/projects' className='nav-item'>Projects</Link></li>
+                    <li><Link to='/V-Rezende-Portfolio/' className='nav-item-home'>Home</Link></li>
+                    <li> <Link to='/V-Rezende-Portfolio/about' className='nav-item'>About</Link></li>
+                    <li><Link to='/V-Rezende-Portfolio/projects' className='nav-item'>Projects</Link></li>
                 </ul>
             </div>
             <div className='connect'>
