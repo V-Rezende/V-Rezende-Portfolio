@@ -4,32 +4,6 @@ import './projects.css'
 const Projects = () => {
   return (
     <div className='proj-section'>
-      <div className='thiago'>
-        <div className='proj-image'>
-            <img src="https://v-rezende.github.io/Imagens-Online/images/ThitiOnDevices-removebg-preview.png" alt="Thiago Nunes - Profile" id='TN' />
-        </div>
-        <div className='proj-description'>
-            <h2>Thiago Nunes - Profile</h2>
-            <p>"In one of my initial web development projects, I created a online profile webpage. As a learner, the major challenge was ensuring responsiveness. Overcoming this hurdle taught me invaluable CSS functionalities, marking a significant highlight in my journey as a web developer."</p>
-            <div className='buttons'>
-              <button><a href='https://v-rezende.github.io/Profile-TN/' target='blank'>LIVE</a></button>
-              <button><a href='https://github.com/V-Rezende/Profile-TN' target='blank'>CODE</a></button>
-            </div>
-        </div>
-      </div>
-      <div className='tour'>
-        <div className='proj-image'>
-            <img src="https://v-rezende.github.io/Imagens-Online/images/TourOnDevices-removebg-preview.png" alt="Tour Australia Today" id='TAT' />
-        </div>
-        <div className='proj-description'>
-            <h2>Tour Australia Today</h2>
-            <p>"In a transformative learning journey with Bootstrap, I recently completed a project that showcases my newfound proficiency. Leveraging Bootstrap's robust functionalities, I crafted a responsive and aesthetically pleasing website, demonstrating mastery in creating dynamic and visually engaging user interfaces."</p>
-            <div className='buttons'>
-              <button><a href='https://v-rezende.github.io/Tour-Australia-Today/' target='blank'>LIVE</a></button>
-              <button><a href='https://github.com/V-Rezende/Tour-Australia-Today' target='blank'>CODE</a></button>
-            </div>
-        </div>
-      </div>
       <div className='cafe'>
         <div className='proj-image'>
             <img src="https://v-rezende.github.io/Imagens-Online/images/CafeOnDevices-removebg-preview.png" alt="Little Lemon Café" id='LLC' />
@@ -54,6 +28,32 @@ const Projects = () => {
             <div className='buttons'>
               <button><a href='https://v-rezende.github.io/Era-Uma-Vez/' target='blank'>LIVE</a></button>
               <button><a href='https://github.com/V-Rezende/Era-Uma-Vez' target='blank'>CODE</a></button>
+            </div>
+        </div>
+      </div>
+      <div className='thiago'>
+        <div className='proj-image'>
+            <img src="https://v-rezende.github.io/Imagens-Online/images/ThitiOnDevices-removebg-preview.png" alt="Thiago Nunes - Profile" id='TN' />
+        </div>
+        <div className='proj-description'>
+            <h2>Thiago Nunes - Profile</h2>
+            <p>"In one of my initial web development projects, I created a online profile webpage. As a learner, the major challenge was ensuring responsiveness. Overcoming this hurdle taught me invaluable CSS functionalities, marking a significant highlight in my journey as a web developer."</p>
+            <div className='buttons'>
+              <button><a href='https://v-rezende.github.io/Profile-TN/' target='blank'>LIVE</a></button>
+              <button><a href='https://github.com/V-Rezende/Profile-TN' target='blank'>CODE</a></button>
+            </div>
+        </div>
+      </div>
+      <div className='tour'>
+        <div className='proj-image'>
+            <img src="https://v-rezende.github.io/Imagens-Online/images/TourOnDevices-removebg-preview.png" alt="Tour Australia Today" id='TAT' />
+        </div>
+        <div className='proj-description'>
+            <h2>Tour Australia Today</h2>
+            <p>"In a transformative learning journey with Bootstrap, I recently completed a project that showcases my newfound proficiency. Leveraging Bootstrap's robust functionalities, I crafted a responsive and aesthetically pleasing website, demonstrating mastery in creating dynamic and visually engaging user interfaces."</p>
+            <div className='buttons'>
+              <button><a href='https://v-rezende.github.io/Tour-Australia-Today/' target='blank'>LIVE</a></button>
+              <button><a href='https://github.com/V-Rezende/Tour-Australia-Today' target='blank'>CODE</a></button>
             </div>
         </div>
       </div>

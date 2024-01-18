@@ -24,10 +24,20 @@ const Navbar = () => {
   <>
     <div className={`nav-menu ${isMenuOpen ? 'hide-desktop-menu' : ''}`}>
       <nav className='desktop-menu'>
-        <Link to='/V-Rezende-Portfolio/' className='nav-item-home'>Home</Link>
-        <Link to='/V-Rezende-Portfolio/about' className='nav-item'>About</Link>
-        <Link to='/V-Rezende-Portfolio/projects' className='nav-item'>Projects</Link>
-        <Link to='/V-Rezende-Portfolio/contact' className='nav-item'>Contact</Link>
+        <div className='nav-icons'>
+          <img className='icon-img' src="https://img.icons8.com/ios-filled/50/html-5--v1.png" alt="html"/>
+          <img className='icon-img' src="https://img.icons8.com/ios-filled/50/css3.png" alt="css"/>
+          <img className='icon-img' src="https://img.icons8.com/ios-filled/50/bootstrap.png" alt="bootstrap"/>
+          <img className='icon-img' src="https://img.icons8.com/ios-filled/50/javascript.png" alt="js"/>
+          <img className='icon-img' src="https://img.icons8.com/ios-filled/50/react-native.png" alt="react"/>
+          <img className='icon-img' src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/>
+        </div>
+        <ul className='nav-list'>
+          <li><Link to='/V-Rezende-Portfolio/' className='nav-item-home'>Home</Link></li>
+          <li><Link to='/V-Rezende-Portfolio/about' className='nav-item'>About</Link></li>
+          <li><Link to='/V-Rezende-Portfolio/projects' className='nav-item'>Projects</Link></li>
+          <li><Link to='/V-Rezende-Portfolio/contact' className='nav-item'>Contact</Link></li>
+        </ul>
       </nav>
 
       <div className="mobile-menu-icon">
