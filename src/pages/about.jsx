@@ -17,7 +17,7 @@ const About = () => {
                         <h3>Front End Developer:</h3>
                         <h4>Freelancer</h4>
                     </div>
-                    <p>Over the past six months, I have been working as a freelance Front End Developer, passionately crafting various small-scale projects. With a keen eye for design and proficiency in coding, I bring creativity and technical expertise to deliver seamless and visually appealing user experiences.</p>
+                    <p>Since the beginning of 2023, I have been working as a freelance Front End Developer, passionately crafting various small-scale projects. With a keen eye for design and proficiency in coding, I bring creativity and technical expertise to deliver seamless and visually appealing user experiences.</p>
                 </div>
                 <div className='year-2023'>
                     <div className='background-title'>

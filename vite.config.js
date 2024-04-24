@@ -6,3 +6,13 @@ export default defineConfig({
   base: "",
   plugins: [react()],
 })
+
+/*
+server: {
+    hmr: {
+      overlay: false,
+    }
+  }
+  */
+
+

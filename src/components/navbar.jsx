@@ -30,6 +30,7 @@ const Navbar = () => {
           <img className='icon-img' src="https://img.icons8.com/ios-filled/50/bootstrap.png" alt="bootstrap"/>
           <img className='icon-img' src="https://img.icons8.com/ios-filled/50/javascript.png" alt="js"/>
           <img className='icon-img' src="https://img.icons8.com/ios-filled/50/react-native.png" alt="react"/>
+          <img className='icon-img' src="https://img.icons8.com/ios-filled/50/wordpress--v1.png" alt="wordpress"/>
           <img className='icon-img' src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/>
         </div>
         <ul className='nav-list'>

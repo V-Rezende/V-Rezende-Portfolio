@@ -20,7 +20,7 @@
   } */
 
   .swiper-slide img {
-    width: 100%;
+    width: 85%;
     object-fit: cover;
   }
 
@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 80px;
   }
 
   .slider-controler .swiper-button-next {

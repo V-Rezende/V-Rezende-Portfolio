@@ -9,10 +9,12 @@ import 'swiper/css/navigation';
 
 import {EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
 
-import slide_image_1 from "./images/CafeOnDevices-removebg-preview.png"
-import slide_image_2 from "./images/EraOnDevices-removebg-preview.png"
-import slide_image_3 from "./images/ThitiOnDevices-removebg-preview.png"
-import slide_image_4 from "./images/TourOnDevices-removebg-preview.png"
+import slide_image_1 from "./images/PeterOnDevices.png"
+import slide_image_2 from "./images/MiaOnDevices.png"
+import slide_image_3 from "./images/LittleOnDevices.png"
+import slide_image_4 from "./images/EraOnDevices.png"
+import slide_image_5 from "./images/ThitiOnDevices.png"
+import slide_image_6 from "./images/TourOnDevices.png"
 
 const Cards = () => {
     return (
@@ -66,6 +68,12 @@ const Cards = () => {
             </SwiperSlide>
             <SwiperSlide>
               <img src={slide_image_4} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+             <img src={slide_image_5} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={slide_image_6} alt="slide_image" />
             </SwiperSlide>
 
             <div className="slider-controler">

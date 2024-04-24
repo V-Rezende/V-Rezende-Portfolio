@@ -13,6 +13,25 @@
        transform: translateY(0);
     }
    }
+.proj-image img{
+    width: 70%;
+}
+
+.mia{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    animation: entering 1s ease-in-out;
+}
+
+.peter{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    animation: entering 1s ease-in-out;
+}
 
 .thiago{
     display: grid;
@@ -44,11 +63,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
     animation: entering 1s ease-in-out;
-}
-
-.tour{
-    display: grid;
-    grid-template-columns: 50% 50%; 
 }
 
 .proj-image{

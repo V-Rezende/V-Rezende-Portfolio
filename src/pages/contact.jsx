@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import SendForm from '../components/Form'
+import SendForm from '../components/form';
 
 const Contact = () => {
   return (

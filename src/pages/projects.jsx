@@ -4,9 +4,38 @@ import './projects.css'
 const Projects = () => {
   return (
     <div className='proj-section'>
+      <div className='peter'>
+        <div className='proj-image'>
+            <img src="https://raw.githubusercontent.com/V-Rezende/Imagens-Online/e2957855b6489d1171b00ccfc957377137c0f46a/images/PeterOnDevices.png" alt="Peter LaRubia" id='PLW' />
+        </div>
+        <div className='proj-description'>
+            <h2>Peter LaRubia Website</h2>
+            <p>"I spearheaded the creation of the Brazilian writer Peter LaRubia's website from conception to execution. Utilising WordPress with Divi Themes, I crafted a dynamic online platform that reflects Peter's unique voice and engages his audience seamlessly. </p>
+            <p>The website boasts a responsive design, ensuring optimal viewing across all devices. With a focus on intuitive user interface and captivating aesthetics, the Peter LaRubia website is poised to captivate both existing readers and new visitors alike."</p>
+            <div className='buttons'>
+              <button><a href='https://peterlarubia.com/' target='blank'>LIVE</a></button>
+              <button><a href='https://github.com/V-Rezende' target='blank'>CODE</a></button>
+            </div>
+            <p></p>
+        </div>
+      </div>
+      <div className='mia'>
+        <div className='proj-image'>
+            <img src="https://raw.githubusercontent.com/V-Rezende/Imagens-Online/e2957855b6489d1171b00ccfc957377137c0f46a/images/MiaOnDevices.png" alt="Mia Handshin" id='MH' />
+        </div>
+        <div className='proj-description'>
+            <h2>Mia Handshin</h2>
+            <p>"In collaboration with Studio Veld in the design and development of the Mia Handshin website. Developed in WordPress through Divi Themes, CSS, and JavaScript to deliver a polished and functional website."</p>
+            <div className='buttons'>
+              <button><a href='https://miahandshin.com/' target='blank'>LIVE</a></button>
+              <button><a href='https://github.com/V-Rezende' target='blank'>CODE</a></button>
+            </div>
+            <p></p>
+        </div>
+      </div>
       <div className='cafe'>
         <div className='proj-image'>
-            <img src="https://v-rezende.github.io/Imagens-Online/images/CafeOnDevices-removebg-preview.png" alt="Little Lemon Café" id='LLC' />
+            <img src="https://raw.githubusercontent.com/V-Rezende/Imagens-Online/e2957855b6489d1171b00ccfc957377137c0f46a/images/LittleOnDevices.png" alt="Little Lemon Café" id='LLC' />
         </div>
         <div className='proj-description'>
             <h2>Little Lemon Café</h2>
@@ -20,7 +49,7 @@ const Projects = () => {
       </div>
       <div className='era'>
         <div className='proj-image'>
-            <img src="https://v-rezende.github.io/Imagens-Online/images/EraOnDevices-removebg-preview.png" alt="Era Uma Vez" id='EUV' />
+            <img src="https://raw.githubusercontent.com/V-Rezende/Imagens-Online/main/images/EraOnDevices.png" alt="Era Uma Vez" id='EUV' />
         </div>
         <div className='proj-description'>
             <h2>Era Uma Vez</h2>
@@ -33,7 +62,7 @@ const Projects = () => {
       </div>
       <div className='thiago'>
         <div className='proj-image'>
-            <img src="https://v-rezende.github.io/Imagens-Online/images/ThitiOnDevices-removebg-preview.png" alt="Thiago Nunes - Profile" id='TN' />
+            <img src="https://raw.githubusercontent.com/V-Rezende/Imagens-Online/main/images/ThitiOnDevices.png" alt="Thiago Nunes - Profile" id='TN' />
         </div>
         <div className='proj-description'>
             <h2>Thiago Nunes - Profile</h2>
@@ -46,7 +75,7 @@ const Projects = () => {
       </div>
       <div className='tour'>
         <div className='proj-image'>
-            <img src="https://v-rezende.github.io/Imagens-Online/images/TourOnDevices-removebg-preview.png" alt="Tour Australia Today" id='TAT' />
+            <img src="https://raw.githubusercontent.com/V-Rezende/Imagens-Online/main/images/TourOnDevices.png" alt="Tour Australia Today" id='TAT' />
         </div>
         <div className='proj-description'>
             <h2>Tour Australia Today</h2>
