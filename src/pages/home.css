@@ -91,6 +91,11 @@
 /* -------------------- RESPONSIVE -------------------- */
 
 @media screen and (min-width:360px) and (max-width: 915px) {
+
+    .body{
+    overflow-x: hidden;
+    }
+
     .header{
         display: grid;
         grid-template-columns: 100%;
@@ -134,6 +139,11 @@
 }
 
 @media screen and (min-width:360px) and (max-width: 430px) {
+
+    .body{
+        overflow-x: hidden;
+    }
+
     .header-title{
         font-size: small;
         width: 100%;
@@ -144,6 +154,12 @@
 }
 
 @media screen and (min-width:360px) and (max-width: 415px) {
+
+    .body{
+        overflow-x: hidden;
+    }
+
+
     .header-title{
         padding-bottom:20px ;
     }

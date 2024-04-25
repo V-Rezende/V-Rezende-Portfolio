@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='footer-foot'>
-            <p>&copy; 2023 V-Rezende. All Rights Reserved / ROOTED IN BRISBANE, AUSTRALIA - COLLABORATING WORLDWIDE</p>
+            <p>&copy; 2024 V-Rezende. All Rights Reserved / ROOTED IN BRISBANE, AUSTRALIA - COLLABORATING WORLDWIDE</p>
         </div>
     </footer>
   )

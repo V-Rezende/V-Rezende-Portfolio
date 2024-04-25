@@ -65,6 +65,11 @@
 /* -------------------- RESPONSIVE -------------------- */
 
 @media screen and (min-width:360px) and (max-width: 1024px) {
+
+    .body{
+        overflow-x: hidden;
+    }
+
     .contact-section{
         display: flex;
         flex-direction:column ;
